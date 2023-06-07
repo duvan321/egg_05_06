@@ -5,24 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="serv.css" />
     <title>Nuestros servicios</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <header>
       <h1>mi primera pagina</h1>
-      <nav>
+      <nav role="navigation">
         <ul>
           <li><a href="mi_primera_pagina.html">Inicio</a></li>
           <li><a href="servicio.html">servicios</a></li>
           <li><a href="conctacto.html">Contacto</a></li>
+          <li><a href="about.html">Acerca De</a></li>
         </ul>
       </nav>
     </header>
     <h1 class="titulo">Nuestros servicios</h1>
-    <p>Descubre aquí los servicios que ofrecemos.</p>
-    <ul class="ul">
-      <li>Servicio 1</li>
-      <li>Servicio 2</li>
-      <li>Servicio 3</li>
+
+    <ul>
+      <li>
+        <span onclick="mostrarDescripcion('descripcion1')"
+          ><i class="fas fa-info-circle"></i
+        ></span>
+        servicio 1
+      </li>
+      <p id="descripcion1" class="descripcion">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus
+        laborum recusandae est explicabo, veritatis libero amet tempora incidunt
+        totam deleniti temporibus quaerat commodi! Suscipit quidem minima
+        reprehenderit at quod.
+      </p>
+      <li>
+        <span onclick="mostrarDescripcion('descripcion2')"
+          ><i class="fas fa-info-circle"></i
+        ></span>
+        servicio 2
+      </li>
+      <p id="descripcion2" class="descripcion">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus
+        laborum recusandae est explicabo, veritatis libero amet tempora incidunt
+        totam deleniti temporibus quaerat commodi! Suscipit quidem minima
+        reprehenderit at quod.
+      </p>
+      <li>
+        <span onclick="mostrarDescripcion('descripcion3')"
+          ><i class="fas fa-info-circle"></i
+        ></span>
+        servicio 3
+      </li>
+      <p id="descripcion3" class="descripcion">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus
+        laborum recusandae est explicabo, veritatis libero amet tempora incidunt
+        totam deleniti temporibus quaerat commodi! Suscipit quidem minima
+        reprehenderit at quod.
+      </p>
+      <li>
+        <span onclick="mostrarDescripcion('descripcion4')"
+          ><i class="fas fa-info-circle"></i
+        ></span>
+        servicio 4
+      </li>
+
+      <p id="descripcion4" class="descripcion">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus
+        laborum recusandae est explicabo, veritatis libero amet tempora incidunt
+        totam deleniti temporibus quaerat commodi! Suscipit quidem minima
+        reprehenderit at quod.
+      </p>
     </ul>
   </body>
 </html>

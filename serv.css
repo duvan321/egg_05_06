@@ -3,15 +3,19 @@ header {
   padding: 20px;
 }
 
+.titulo {
+  text-align: center;
+}
+
 h1 {
-  color: #24e02a;
+  margin: 0;
+  color: #24e040;
 }
-.titulo{
-    text-align: center;
-}
+
 nav {
   text-align: end;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -30,8 +34,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #00ff0d;
+  color: #1aff00;
 }
+
 .titulo {
   text-align: center;
   font-size: 24px;
@@ -45,12 +50,27 @@ p {
   margin-bottom: 20px;
 }
 
-.ul {
-  list-style-type: disc;
-  margin-left: 20px;
+ul {
+  list-style-type: none;
+ 
 }
 
-.ul li {
+ul li {
   margin-bottom: 50px;
 }
+@media screen and (max-width: 500px) {
+  /* Estilos para el menú en tablets y pantallas más grandes */
 
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}

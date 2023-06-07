@@ -2,16 +2,20 @@ header {
   background-color: #0c0606;
   padding: 20px;
 }
-.titulo{
-    text-align: center;
+
+.titulo {
+  text-align: center;
 }
+
 h1 {
   margin: 0;
   color: #24e040;
 }
-nav{
-    text-align: end;
+
+nav {
+  text-align: end;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -20,7 +24,6 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-
   margin-right: 50px;
 }
 
@@ -33,10 +36,32 @@ nav ul li a:hover {
   color: #1aff00;
 }
 
-p{
-    text-align: center;
-    font-size: 30px;
+.container {
+  display: flex;
+  justify-content: center;
 }
 
+.item {
+  font-family: cursive;
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  font-size: 20px;
+}
+ul li {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 500px) {
+  /* Estilos para el menú en tablets y pantallas más grandes */
 
-
+  nav ul li{
+  display: flex;
+  flex-direction: column;
+  }
+  h1{
+    font-size: 25px;
+  }
+  p{
+    font-size: 17px;
+  }
+}

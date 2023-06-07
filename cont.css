@@ -86,3 +86,22 @@ input[type="submit"]:hover {
 .mensaje.mostrar {
   display: block;
 }
+ul li {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 500px) {
+  /* Estilos para el menú en tablets y pantallas más grandes */
+
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
