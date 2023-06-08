@@ -23,57 +23,65 @@
       </nav>
     </header>
     <h1 class="titulo">Nuestros servicios</h1>
+    <section>
+      <ul>
+        <li>
+          <span onclick="mostrarDescripcion('descripcion1')"
+            ><i class="fas fa-info-circle fa-lg"></i
+          ></span>
+          servicio 1
+          <p id="descripcion1" class="descripcion">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+            delectus laborum recusandae est explicabo, veritatis libero amet
+            tempora incidunt totam deleniti temporibus quaerat commodi! Suscipit
+            quidem minima reprehenderit at quod.
+          </p>
+        </li>
 
-    <ul>
-      <li>
-        <span onclick="mostrarDescripcion('descripcion1')"
-          ><i class="fas fa-info-circle"></i
-        ></span>
-        servicio 1
-      </li>
-      <p id="descripcion1" class="descripcion">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus
-        laborum recusandae est explicabo, veritatis libero amet tempora incidunt
-        totam deleniti temporibus quaerat commodi! Suscipit quidem minima
-        reprehenderit at quod.
-      </p>
-      <li>
-        <span onclick="mostrarDescripcion('descripcion2')"
-          ><i class="fas fa-info-circle"></i
-        ></span>
-        servicio 2
-      </li>
-      <p id="descripcion2" class="descripcion">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus
-        laborum recusandae est explicabo, veritatis libero amet tempora incidunt
-        totam deleniti temporibus quaerat commodi! Suscipit quidem minima
-        reprehenderit at quod.
-      </p>
-      <li>
-        <span onclick="mostrarDescripcion('descripcion3')"
-          ><i class="fas fa-info-circle"></i
-        ></span>
-        servicio 3
-      </li>
-      <p id="descripcion3" class="descripcion">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus
-        laborum recusandae est explicabo, veritatis libero amet tempora incidunt
-        totam deleniti temporibus quaerat commodi! Suscipit quidem minima
-        reprehenderit at quod.
-      </p>
-      <li>
-        <span onclick="mostrarDescripcion('descripcion4')"
-          ><i class="fas fa-info-circle"></i
-        ></span>
-        servicio 4
-      </li>
+        <li>
+          <span onclick="mostrarDescripcion('descripcion2')"
+            ><i class="fas fa-info-circle fa-lg"></i
+          ></span>
+          servicio 2
+          <p id="descripcion2" class="descripcion">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+            delectus laborum recusandae est explicabo, veritatis libero amet
+            tempora incidunt totam deleniti temporibus quaerat commodi! Suscipit
+            quidem minima reprehenderit at quod.
+          </p>
+        </li>
 
-      <p id="descripcion4" class="descripcion">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus
-        laborum recusandae est explicabo, veritatis libero amet tempora incidunt
-        totam deleniti temporibus quaerat commodi! Suscipit quidem minima
-        reprehenderit at quod.
-      </p>
-    </ul>
+        <li>
+          <span onclick="mostrarDescripcion('descripcion3')"
+            ><i class="fas fa-info-circle fa-lg"></i
+          ></span>
+          servicio 3
+          <p id="descripcion3" class="descripcion">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+            delectus laborum recusandae est explicabo, veritatis libero amet
+            tempora incidunt totam deleniti temporibus quaerat commodi! Suscipit
+            quidem minima reprehenderit at quod.
+          </p>
+        </li>
+
+        <li>
+          <span onclick="mostrarDescripcion('descripcion4')"
+            ><i class="fas fa-info-circle fa-lg"></i
+          ></span>
+          servicio 4
+          <p id="descripcion4" class="descripcion">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+            delectus laborum recusandae est explicabo, veritatis libero amet
+            tempora incidunt totam deleniti temporibus quaerat commodi! Suscipit
+            quidem minima reprehenderit at quod.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <button onClick="showAlert()" aria-label="Haz clic en mí">
+      ¡Haz clic en mí!
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="servicios.js"></script>
   </body>
 </html>

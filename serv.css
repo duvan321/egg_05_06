@@ -52,11 +52,25 @@ p {
 
 ul {
   list-style-type: none;
- 
 }
 
 ul li {
   margin-bottom: 50px;
+}
+button {
+  background-color: #24e040;
+  color: #f0ebeb;
+  border: none;
+  margin-left: 46%;
+}
+.descripcion {
+  display: none;
+  border: solid 1px #24e040;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+section i {
+  cursor: pointer;
 }
 @media screen and (max-width: 500px) {
   /* Estilos para el menú en tablets y pantallas más grandes */
@@ -72,5 +86,8 @@ ul li {
 
   p {
     font-size: 17px;
+  }
+  button {
+    margin: 0px;
   }
 }

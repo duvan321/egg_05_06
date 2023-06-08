@@ -68,6 +68,12 @@ img:hover {
 ul li {
   margin-bottom: 50px;
 }
+button {
+  background-color: #24e040;
+  color: #f0ebeb;
+  border: none;
+  margin-left: 46%;
+}
 @media screen and (max-width: 500px) {
   /* Estilos para el menú en tablets y pantallas más grandes */
 
@@ -91,5 +97,8 @@ ul li {
   .contenedor img {
     width: 150px;
     height: 150px;
+  }
+  button {
+    margin-left: 37%;
   }
 }
