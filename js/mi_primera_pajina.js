@@ -29,6 +29,7 @@
       brasil: "Brasil",
       chile: "Chile",
       españa: "España",
+      venezuela:"venezuela",
     },
 
     customClass: {

@@ -41,14 +41,20 @@ nav ul li a:hover {
   justify-content: center;
   flex-direction: column;
 }
-section {
+main {
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 ul li {
   margin-bottom: 50px;
 }
 video {
-  width: 665px;
+  width: 660px;
   height: 315px;
 }
 .rojo {
@@ -61,7 +67,8 @@ button {
   background-color: #24e040;
   color: #f0ebeb;
   border: none;
-  margin-left: 46%;
+  margin-left: 35rem;
+  margin-right: 35rem;
 }
 @media screen and (max-width: 500px) {
   /* Estilos para el menú en tablets y pantallas más grandes */
@@ -83,6 +90,7 @@ button {
     width: 393px;
   }
   button {
-    margin: 0px;
+    margin-left: 0rem;
+    margin-right: 10rem;
   }
 }
