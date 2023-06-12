@@ -98,7 +98,7 @@ p {
   width: 150px;
   height: 150px;
   margin-left: 30%;
-  border-radius: 3px;
+  border-radius: 50%;
 }
 .contenido {
   flex-grow: 1;
@@ -168,7 +168,7 @@ section i {
     width: 100px;
     height: 100px;
     margin-left: 10%;
-    border-radius: 3px;
+    border-radius: 50%;
   }
   .contenido p {
     margin: 0;
