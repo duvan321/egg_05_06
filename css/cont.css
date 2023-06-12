@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 header {
   background-color: #0c0606;
   padding: 20px;
@@ -86,11 +91,36 @@ input[type="submit"]:hover {
 ul li {
   margin-bottom: 50px;
 }
+p,
+h3 {
+  color: #777;
+  line-height: 1.5;
+}
+footer {
+  background-color: #1b1717;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 button {
   background-color: #24e040;
-  color: #f0ebeb;
+  color: #fff;
+  padding: 10px 20px;
   border: none;
-  margin-left: 46%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #555;
 }
 @media screen and (max-width: 500px) {
   /* Estilos para el menú en tablets y pantallas más grandes */
@@ -106,8 +136,5 @@ button {
 
   p {
     font-size: 17px;
-  }
-  button {
-    margin-left: 37%;
   }
 }

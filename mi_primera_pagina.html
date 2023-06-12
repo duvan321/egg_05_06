@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <h1>mi primera pagina</h1>
+      <h1 class="titulo-header">mi primera pagina</h1>
       <nav role="navigation">
         <ul>
           <li><a href="mi_primera_pagina.html">Inicio</a></li>
@@ -36,30 +36,37 @@
           web front-end.
         </p>
       </main>
+
+      <div class="videos-container">
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/qWcwFMAqpME"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="video-container">
+          <video
+            src="video/¡Bienvenid@s! Ponte a prueba y comienza a programar.mp4"
+            controls
+          ></video>
+        </div>
+      </div>
     </div>
+
     <footer>
-      <div>
-        <iframe
-          width="660"
-          height="315"
-          src="https://www.youtube.com/embed/qWcwFMAqpME"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; 
-      clipboard-write; encrypted-media; gyroscope;
-       picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+      <div class="footer-container">
+        <p>
+          Gracias por visitar mi primer Website. ¡Espero que te haya gustado!
+        </p>
+        <button onClick="showAlert()" aria-label="Haz clic en mí">
+          ¡Haz clic en mí!
+        </button>
       </div>
-      <div>
-        <video
-          src="video/¡Bienvenid@s! Ponte a prueba y comienza a programar.mp4"
-          controls
-        ></video>
-      </div>
-      <button onClick="showAlert()" aria-label="Haz clic en mí">
-        ¡Haz clic en mí!
-      </button>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="js/mi_primera_pajina.js"></script>
